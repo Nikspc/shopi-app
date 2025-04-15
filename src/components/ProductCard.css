@@ -1,0 +1,17 @@
+.product-image {
+    height: 10rem;
+    width: 100%;
+    object-fit: contain;
+}
+  
+.product-card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+  
+.product-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+  
